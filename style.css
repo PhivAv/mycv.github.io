@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.profile {
+    display: block; 
+    text-align: center; 
+    padding: 20px;
+}
+
+
+.profile-img-container {
+    text-align: center; 
+}
+
+.profile-img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block; 
+    margin-bottom: 20px;
+}
+
+
+.icon {
+    color: #17a2b8; 
+    margin-right: 5px;
+}
+
+
+.fa-chart-line { color: #ff7f50; } 
+.fa-globe { color: #6f42c1; } 
+.fa-bullseye { color: #28a745; } 
+.fa-users { color: #007bff; } 
+
+
+
+.navigation {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.navigation a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em; 
+}
+
+.card-white {
+    background: #ffffff;
+    background-image: linear-gradient(to bottom right, #ffffff, #e6e6e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-white:hover {
+    box-shadow: 0 6px
+}
+
+
+.voyage-images {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.voyage-photo {
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+}
+
+
+
+
+
